@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <b-container class="bv-example-row">
+      <HelloWorld msg="Welcome to Your Vue.js App" />
+    </b-container>
   </div>
 </template>
 
@@ -21,8 +22,22 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  // text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+html,
+body {
+  background: #ffb347; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffcc33,
+    #ffb347
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffcc33,
+    #ffb347
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 </style>
