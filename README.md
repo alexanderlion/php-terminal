@@ -9,11 +9,12 @@ npm install
 ```
 npm run serve
 ```
-
+in order for commands to be executed put exec.php somewhere on a php webserver
 ### Compiles and minifies for production
 ```
-npm run build
+npm run build 
 ```
+then copy the files from ```dist``` to somewhere on the webserver
 
 ### Lints and fixes files
 ```
